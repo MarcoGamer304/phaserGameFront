@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <h1>Login menu</h1>
+
+  <button id="loginModal">Login</button>
+
+  <dialog id="modalLogin">
+    <button id="closeModal">X</button>
+    <form id="credentials">
+      <div>
+        <span>Username</span>
+        <input type="text" placeholder="usename" id="inputUsename" required>
+      </div>
+      <div>
+        <span>Password</span>
+        <input type="password" placeholder="password" id="inputPassword" required>
+      </div>
+      <button>submit</button>
+  </dialog>
+  </form>
+  <script type="module" src="./src/menu/login.js"></script>
+  
+</body>
+
+</html>

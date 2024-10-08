@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/styles/game.css">
+    <link rel="stylesheet" href="./src/styles/crucetas.css">
+</head>
+
+<body id="body" class="no-select">
+    <main id="hud">
+        <div id="controller">
+            <div class="directional-pad no-select">
+                <div class="row">
+                    <div id="controller-left" class="button" style="background-color: #0000ff;"></div>
+                    <div id="controller-center" class="button" style="opacity: 0%;"></div>
+                    <div id="controller-rigth" class="button" style="background-color: #0000ff;"></div>
+                </div>
+            </div>
+            <div class="camera-pad no-select">
+                <div id="camera-center" class="button" style="background-color: green;"></div>
+            </div>
+        </div>
+        <script type="module" src="./src/WebSockets/socketsClient.js"></script>
+</body>
+
+</html>
